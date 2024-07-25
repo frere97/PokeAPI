@@ -15,6 +15,7 @@ function getPokemon() {
         .then(response => response.json())
         .then(function(data){ 
         pkm = data
+        console.log(pkm);
         setPokemon();
     }
     );
